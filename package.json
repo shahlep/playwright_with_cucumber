@@ -1,0 +1,30 @@
+{
+  "name": "playwright_with_cucumber",
+  "version": "1.0.0",
+  "description": "Automating playwright with cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahlep/playwright_with_cucumber.git"
+  },
+  "keywords": [
+    "Playwright",
+    "Cucumber"
+  ],
+  "author": "Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahlep/playwright_with_cucumber/issues"
+  },
+  "homepage": "https://github.com/shahlep/playwright_with_cucumber#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^7.3.2",
+    "chai": "^4.3.6",
+    "cucumber-html-reporter": "^5.5.0",
+    "playwright": "^1.19.1",
+    "prettier": "^2.5.1"
+  }
+}
