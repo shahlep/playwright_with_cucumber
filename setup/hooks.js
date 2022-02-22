@@ -10,3 +10,15 @@ AfterAll(async()=>{
     console.log('Closing the browser')
     await global.browser.close()
 })
+
+Before(async()=>{
+    console.log('setting up context and page')
+    global.context = await global.browser.newContext()
+    global.page = await global.context.newPage()
+})
+
+After(async()=>{
+    console.log('closing context and page')
+    await global.page.close()
+    await global.context.close()
+})
