@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 937000000
+              "duration": 1060000000
             }
           },
           {
@@ -27,7 +27,33 @@
             },
             "result": {
               "status": "passed",
-              "duration": 469000000
+              "duration": 833000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I fill the login form with valid credentials",
+            "match": {
+              "location": "step-definitions/login-step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 253000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see the home page",
+            "match": {
+              "location": "step-definitions/login-step.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
             }
           },
           {
@@ -35,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 44000000
+              "duration": 129000000
             }
           }
         ],
