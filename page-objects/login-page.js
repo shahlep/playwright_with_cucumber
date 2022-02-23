@@ -11,3 +11,5 @@ class LoginPage {
         await page.waitForSelector('.title')
     }
 }
+
+module.exports ={LoginPage}
